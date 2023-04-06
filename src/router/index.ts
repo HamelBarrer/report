@@ -6,6 +6,11 @@ import {
 
 export const routes: RouteRecordRaw[] = [
   {
+    path: '/dashboard/',
+    name: 'dashboard',
+    component: () => import('../views/dashboard/DashboardView.vue'),
+  },
+  {
     path: '/report/',
     name: 'home',
     component: () => import('../views/HomeView.vue'),
