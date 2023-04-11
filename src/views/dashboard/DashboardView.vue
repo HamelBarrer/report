@@ -2,10 +2,10 @@
 import { Card, CardBody } from '@progress/kendo-vue-layout';
 import { Input } from '@progress/kendo-vue-inputs';
 
-import FilterDashboard from '@/components/dashboard/FilterDashboard.vue';
-import ChartContentDashboard from '@/components/dashboard/ChartContentDashboard.vue';
-import FilterChartDashboard from '@/components/dashboard/FilterChartDashboard.vue';
-import DetailDashboard from '@/components/dashboard/DetailDashboard.vue';
+import FilterDashboard from '../../components/dashboard/FilterDashboard.vue';
+import ChartContentDashboard from '../../components/dashboard/ChartContentDashboard.vue';
+import FilterChartDashboard from '../../components/dashboard/FilterChartDashboard.vue';
+import DetailDashboard from '../../components/dashboard/DetailDashboard.vue';
 
 const initData = [
   {
