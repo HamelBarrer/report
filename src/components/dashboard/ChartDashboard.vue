@@ -7,6 +7,7 @@ import {
   ChartSeriesLabels,
 } from '@progress/kendo-vue-charts';
 import 'hammerjs';
+
 import { ref } from 'vue';
 
 const data = ref([
