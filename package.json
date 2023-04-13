@@ -1,6 +1,6 @@
 {
   "name": "@hamelbarrero/report",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "private": false,
   "scripts": {
     "dev": "vite",
@@ -33,6 +33,7 @@
     "firebase": "^9.18.0",
     "hammerjs": "^2.0.8",
     "pinia": "^2.0.32",
+    "vite-plugin-dts": "^2.2.0",
     "vue": "^3.2.47",
     "vue-router": "^4.1.6"
   },
