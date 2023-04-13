@@ -3,6 +3,8 @@ import { GridPdfExport } from '@progress/kendo-vue-pdf';
 import { Grid, type GridPageChangeEvent } from '@progress/kendo-vue-grid';
 import { Button } from '@progress/kendo-vue-buttons';
 import { computed, inject, ref } from 'vue';
+import FilterChartDashboard from '../dashboard/FilterChartDashboard.vue';
+import InputDateMonthFilter from '../filters/InputDateMonthFilter.vue';
 
 const props = defineProps({
   itemValues: { type: Array<any>, required: true },
@@ -35,6 +37,8 @@ const handlerPageChange = (e: GridPageChangeEvent) => {
 
 <template>
   <Button @click="exportPDFWithComp">Exportar pdf</Button>
+  <FilterChartDashboard />
+  <InputDateMonthFilter />
   <GridPdfExport :ref="gridPdfExport">
     <Grid
       :data-items="items"
