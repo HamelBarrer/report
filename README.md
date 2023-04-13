@@ -18,15 +18,15 @@ npm i @hamelbarrero/report
 
 Con el paquete instalado se requiere tener un elemento div en el aplicativo principal con el id `box_report` el cual mostrara los reportes
 
-## Rutas
+## Componentes
 
-El microfrontend cuenta con sus propias rutas para la implementacion de cada reporte
+El microfrontend cuenta con sus propios componentes los cuales son de reporte como del Dashboard
 
-`/report/reporte_insercion` -> Reporte insercion  
-`/report/reporte_notification` -> Reporte notificacion  
-`/report/reporte_schedule` -> Reporte Agenda
-
-Para poder acceder a las rutas del aplicativo se necesita importar `import { routes } from '@hamelbarrero/report/src/router';`, en el aplicativo principal en la seccion de las rutas se agregan las rutas importadas
+`import Report from '@hamelbarrero/report/src'` -> Applicacion para montar en main.ts  
+`import Dashboard from '@hamelbarrero/report/src/views/dashboard/DashboardView.vue';` -> Componente dashboard  
+`import InsertionReport from '@hamelbarrero/report/src/components/reports/InsertionReport.vue';` -> Reporte insercion  
+`import NotificationReport from '@hamelbarrero/report/src/components/reports/NotificationReport.vue';` -> Reporte notificacion  
+`import ScheduleReport from '@hamelbarrero/report/src/components/reports/ScheduleReport.vue';` -> Reporte agendas
 
 ## Variables de entorno
 
